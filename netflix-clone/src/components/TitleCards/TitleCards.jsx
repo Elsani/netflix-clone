@@ -15,9 +15,9 @@ const TitleCards = () => {
   }, []);
 
   return (
-    <div className="title-cards" ref={cardsRef}>
+    <div className="title-cards">
       <h2>Popular on Netflix</h2>
-      <div className="card-list">
+      <div className="card-list" ref={cardsRef}>
         {cards_data.map((card, index) => {
           return (
             <div className="card" key={index}>
