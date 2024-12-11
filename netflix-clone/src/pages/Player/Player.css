@@ -1,7 +1,7 @@
 .player {
     height: 100vh;
     display: flex;
-    flex-direction: center;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
