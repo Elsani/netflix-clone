@@ -15,7 +15,6 @@ export const Home = () => {
         <img src={hero_banner} alt="" className="banner-img" />
         <div className="hero-caption">
           <img src={hero_title} alt="" className="caption-img" />
-          <p>dasasdasasdasdasasdasasdasasdasasdasasdasasdasasdasasdasdasd</p>
           <div className="hero-btns">
             <button className="btn">
               <img src={play_icon} alt="" />
